@@ -4,7 +4,15 @@ public class sumof2 {
         int a =5;
         int b =10;
         int sum = a+b;
+        int sub= b-a;
         System.out.println(sum);
+        System.out.println(sub);
     }
 }
+// git init
+// git add
+// git commit -m"msg"==> who are you
+//
 
+//agin =>git commit -m"msg"
+//git push =>copy paste
