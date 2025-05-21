@@ -35,19 +35,23 @@
 //---------------------------------------------------------------------------------
 
 //METHOD OVERIDING
+//complusorily follows the inheritance concept 
+//you have atlwast two classes one the parent and the the other one is the child class
+//method overrididng is the method to choose the most prefer or the suitable method to be printed which is then called 
 
 
-
+//-------------------------------------------------------------------------------------
 class vehicles{
     void run(){
         System.out.println("you are the under the vehicle class");
     }
 }
-
-
 class bike extends vehicles{
     void run(){
         System.out.println("you are the under the bike class");
+        //super.run();
+        //super keyword :to call the both run method ,it is used to call out the parent's method using the super keyword
+        //never called in the main method only under the child class you write whose parent method is to be printed
     }
 }
  class examplethis{
@@ -58,3 +62,5 @@ class bike extends vehicles{
          obj1.run();
     }
  }
+//----------------------------------------------------------------------
+
