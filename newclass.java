@@ -33,6 +33,8 @@
 //     }
 // }
 //-----------------------------------------------------------------------------------------------
+//working of multiple inhertiance using interface and implementing 
+//well the java do not support the multiple inheritance
  interface Client1{
      void show();
 }

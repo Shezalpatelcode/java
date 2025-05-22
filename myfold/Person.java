@@ -2,8 +2,8 @@ package myfold;
 
   class Person {
     //public static void main(String args[]){
-    private String str="John";
-    private int n=23;
+    //private String str="John";
+    //private int n=23;
     protected void sayHello(){
         System.out.println("Imported file from Person file");
     }
