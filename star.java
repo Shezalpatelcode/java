@@ -7,7 +7,7 @@ public class star {
         int a=sc.nextInt();
         int b=sc.nextInt();
         int arr[]={1,2,3,5,78};
-        String str="HONEY";
+        String str="Honey";
           try {
             int c=a/b;
            System.out.println("Answer:  " +  c);
@@ -21,14 +21,14 @@ public class star {
             System.out.println("Error: The number can not be divided by zero");
           }
           try {
-            System.out.println(arr[2]);
+            System.out.println(arr[2] + "--is the value at given index--");
           } catch (Exception e) {
             System.out.println(e);
           }
           try {
             System.out.println(str.toUpperCase());
           } catch (Exception e) {
-            System.out.println(str);
+            System.out.println("The string is already in upper case");
           }
           System.out.println("This ia a try catch program ");
           System.out.println("It does the Exception handling ");
